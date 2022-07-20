@@ -2,10 +2,11 @@
  top banner 
  ------------*/
 .container {
-    border: 1px solid red;
-    max-width: 1200px;
+    /* border: 1px solid red; */
+    max-width: 1250px;
     margin: 30px 100px;
     background-color: aliceblue;
+    margin-bottom: 110px;
 }
 
 .top-banner {
@@ -48,8 +49,89 @@
 }
 
 .banner-image {
-    max-height: 1000px;
+
     margin-top: 50px;
     margin-left: 150px;
 
+}
+
+/* -------
+  main part
+ --------- */
+
+.nav-and-blog {
+    display: flex;
+    background-color: white;
+}
+
+/* --nav-- */
+.nav-button {
+    background-color: black;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 17px;
+
+
+}
+
+.button {
+    color: black;
+    background-color: aliceblue;
+    width: 200px;
+    height: 70px;
+    border-radius: 15px;
+    font-size: 20px;
+
+}
+
+.button2 {
+    color: aliceblue;
+    background-color: red;
+    width: 200px;
+    height: 70px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+/* --blogs-- */
+
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.blog {
+    border: 1px solid #dddada;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+/* hour and comment */
+.social-media {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-duration {
+    display: flex;
+    justify-content: space;
+}
+
+#hour {
+    margin-left: 10px;
+}
+
+.blog-comment {
+    display: flex;
+    margin-right: 170px;
+}
+
+#numbers {
+    margin-left: 10px;
 }
