@@ -1,0 +1,55 @@
+/*-----------
+ top banner 
+ ------------*/
+.container {
+    border: 1px solid red;
+    max-width: 1200px;
+    margin: 30px 100px;
+    background-color: aliceblue;
+}
+
+.top-banner {
+    background-color: black;
+    width: 1200px;
+    height: 500px;
+
+    display: flex;
+    border-radius: 20px;
+}
+
+.banner-container {
+    width: 531px;
+    height: 500px;
+    margin-top: 45px;
+    margin-left: 95px;
+}
+
+.banner-title {
+    color: white;
+    font-size: 3.5vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-information {
+    color: white;
+    font-size: 18px;
+}
+
+.banner-button {
+    color: white;
+    font-size: 18px;
+    background-color: red;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.fa-light {
+    margin-left: 15px;
+}
+
+.banner-image {
+    max-height: 1000px;
+    margin-top: 50px;
+    margin-left: 150px;
+
+}
