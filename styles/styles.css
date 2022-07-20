@@ -4,8 +4,9 @@
 .container {
     /* border: 1px solid red; */
     width: 1300px;
-    margin: 30px 100px;
     background-color: aliceblue;
+    margin-top: 100px;
+    margin-left: 65px;
     margin-bottom: 110px;
 }
 
