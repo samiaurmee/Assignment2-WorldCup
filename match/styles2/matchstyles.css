@@ -49,9 +49,10 @@
 }
 
 .banner-image {
-
-    padding-top: 50px;
-    padding-left: 150px;
+    width: 500px;
+    height: 100%;
+    padding-top: 160px;
+    padding-left: 300px;
 
 }
 
