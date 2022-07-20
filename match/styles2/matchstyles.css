@@ -104,6 +104,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
+    width: 1050px;
 
 }
 
@@ -111,39 +112,26 @@
     border: 1px solid #dddada;
     border-radius: 5px;
     margin-left: 25px;
+    text-align: center;
 
+}
+
+.blog-img {
+    display: flex;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.img-vs {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
 }
 
 .blog-detail {
-    padding-left: 15px;
-    padding-top: 10px;
-    padding-right: 5px;
+    padding-bottom: 30px;
 }
 
-/* hour and comment */
-.social-media {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 15px;
-    padding-bottom: 10px;
-}
-
-.blog-duration {
-    display: flex;
-}
-
-#hour {
-    margin-left: 10px;
-}
-
-.blog-comment {
-    display: flex;
-    margin-right: 170px;
-}
-
-#numbers {
-    margin-left: 10px;
-}
 
 /* --------
     footer
