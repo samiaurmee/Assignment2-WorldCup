@@ -207,9 +207,11 @@ hr {
 /* --------
 media screen
 ---------- */
-/* -----***tablet***----- */
-/* top-banner */
-@media screen and (min-width: 712px) and (max-width: 1138px) {
+/* -----***galaxy tab S4***----- */
+
+@media only screen and (min-width: 712px) and (max-width: 1138px) {
+
+    /* top-banner */
     .container {
         /* border: 1px solid red; */
         width: 950px;
@@ -218,7 +220,7 @@ media screen
         margin-left: 95px;
         margin-bottom: 110px;
         margin-right: 95px;
-        background-color: burlywood;
+        /* background-color: burlywood; */
     }
 
 
@@ -396,6 +398,230 @@ media screen
         justify-content: space-evenly;
         padding-left: 230px;
         padding-right: 230px;
+        padding-top: 30px;
+
+    }
+
+    /* -- link -- */
+    .link {
+        font-size: 40px;
+        padding-top: 65px;
+    }
+
+    .fa-facebook {
+        color: #5378e8;
+    }
+
+    .fa-twitter {
+        color: skyblue;
+    }
+
+    .fa-linkedin {
+        color: steelblue;
+    }
+
+}
+
+/* -----***iphone XR***----- */
+@media only screen and (max-width: 667px) {
+
+    /* top-banner */
+    .container {
+        /* border: 1px solid red; */
+        width: 375px;
+        background-color: aliceblue;
+        margin-top: 100px;
+        margin-left: 95px;
+        margin-bottom: 110px;
+        margin-right: 95px;
+        /* background-color: burlywood; */
+    }
+
+
+    .top-banner {
+        background-color: black;
+        width: 375px;
+        height: 850px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+
+    }
+
+    .banner-container {
+        width: 175px;
+        height: 500px;
+        margin-top: 120px;
+        margin-left: 95px;
+    }
+
+    .banner-title {
+        color: white;
+        font-size: 3.5vw;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .banner-information {
+        color: white;
+        font-size: 18px;
+    }
+
+    .banner-button {
+        color: white;
+        font-size: 18px;
+        background-color: red;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .fa-light {
+        margin-left: 15px;
+    }
+
+    .banner-image {
+
+        padding-top: 100px;
+        padding-left: 50px;
+
+    }
+
+    /* -------
+  main part
+ --------- */
+
+    .nav-and-blog {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+
+    /* --nav-- */
+    .nav-button {
+        background-color: white;
+        width: 375px;
+        height: 111px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15px;
+        margin-top: -10px;
+        margin-right: 100px;
+        margin-left: 100px;
+
+    }
+
+    .button {
+        color: black;
+        background-color: aliceblue;
+        width: 200px;
+        height: 70px;
+        border-radius: 10px;
+        font-size: 20px;
+        margin-top: 15px;
+
+    }
+
+    .button a {
+        color: black;
+        text-decoration: none;
+        border-radius: 10px;
+        margin-bottom: 20px;
+
+    }
+
+    .button2 {
+        color: aliceblue;
+        background-color: red;
+        width: 200px;
+        height: 70px;
+        border-radius: 10px;
+        font-size: 20px;
+        margin-top: 15px;
+
+    }
+
+    /* --blogs-- */
+
+    .blog-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+
+    }
+
+    .blog {
+        border: 1px solid #dddada;
+        border-radius: 5px;
+        margin-left: 25px;
+
+    }
+
+    .blog-detail {
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-right: 5px;
+    }
+
+    /* hour and comment */
+    .social-media {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-bottom: 10px;
+    }
+
+    .blog-duration {
+        display: flex;
+    }
+
+    #hour {
+        margin-left: 10px;
+    }
+
+    .blog-comment {
+        display: flex;
+        margin-right: 170px;
+    }
+
+    #numbers {
+        margin-left: 10px;
+    }
+
+    /* --------
+    footer
+    ---------- */
+    footer {
+        background-color: black;
+        color: whitesmoke;
+        text-align: center;
+        width: 376px;
+        height: 600px;
+        padding-top: 170px;
+        margin-top: 100px;
+        margin-left: 95px;
+        margin-bottom: 110px;
+        margin-right: 95px;
+
+    }
+
+    .F-heading {
+        padding-bottom: 30px;
+    }
+
+    hr {
+        border: 0.2px solid #767474;
+        width: 300px;
+    }
+
+    .F-info {
+        color: #7c7b7b;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 100px;
+        padding-right: 100px;
         padding-top: 30px;
 
     }
